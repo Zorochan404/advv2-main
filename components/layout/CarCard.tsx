@@ -99,7 +99,7 @@ const CarCard: React.FC<CardProps> = ({
                             </Text>
                         )}
                     </View>
-                </View>
+                </View> 
 
                 {/* Car Specs */}
                 <View className="flex-row justify-between mt-2 pt-2 border-t border-gray-800">

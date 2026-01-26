@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../../store/useAuthStore';
 
 // Access env variables if needed, e.g. process.env.EXPO_PUBLIC_API_URL
-const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://266be5d23202.ngrok-free.app/api/v1';
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://7e720107c12a.ngrok-free.app/api/v1';
 
 export const apiClient = axios.create({
     baseURL: BASE_URL,
